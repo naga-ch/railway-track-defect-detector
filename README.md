@@ -11,9 +11,18 @@ A research prototype that trains a YOLOv8n object detector in Google Colab and r
 - The current trained model package in `models/railway_pi_deployment.zip`.
 - Raspberry Pi case and wheel CAD files in `hardware/`.
 - Project review slides, validation plots, and metric exports in `docs/project-review/`.
+- Photos and a short video of the assembled prototype in `docs/prototype-media/`.
 - Contribution, security, and community guidelines.
 
 The repository does not include the dataset ZIP or extracted images. The dataset export exceeds GitHub's per-file upload limit and should be downloaded from its [Roboflow project](https://universe.roboflow.com/csci-199/rsdd-split-4) when training. The export identifies its dataset license as **CC BY 4.0**. Keep the required attribution when redistributing the dataset or results derived from it.
+
+## Prototype media
+
+The following media show the assembled Raspberry Pi railway inspection prototype.
+
+![Assembled railway track defect detector prototype](docs/prototype-media/railway-detector-prototype.jpg)
+
+[Watch the prototype video](docs/prototype-media/railway-detector-prototype.mp4)
 
 ## Model and dataset
 
