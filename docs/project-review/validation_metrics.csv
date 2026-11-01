@@ -1,0 +1,5 @@
+metric,value,split,epoch
+Precision,0.92005,validation,86
+Recall,0.89361,validation,86
+mAP50,0.92704,validation,86
+mAP50-95,0.6267,validation,86

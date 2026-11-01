@@ -1,0 +1,36 @@
+# Python and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+railway-venv/
+.env
+.env.*
+!.env.example
+
+# Local model runs and captures
+runs/
+captures/
+logs/
+*.log
+dashboard.pid
+browser.pid
+best.pt
+*.onnx
+*.engine
+*.ncnn.bin
+
+# Dataset data must be downloaded from Roboflow; never commit the export
+/data/
+/datasets/
+/RSDD Split 4.v2-split-4-with-augment.yolov8/
+/RSDD Split 4.v2-split-4-with-augment.yolov8.zip
+
+# Generated archives and local clutter
+*.zip
+!models/railway_pi_deployment.zip
+.DS_Store
+Thumbs.db
+.codex*
+.chart-data-*/
+project_review_output/railway_project_review_assets.zip
